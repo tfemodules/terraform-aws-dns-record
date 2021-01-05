@@ -7,5 +7,5 @@ resource "aws_route53_record" "tfe" {
   name    = var.cname_record
   type    = "CNAME"
   ttl     = "60"
-  records = [var.cname_value]
+  records = [var.cname_record_value]
 }
