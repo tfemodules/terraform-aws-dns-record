@@ -5,7 +5,7 @@ variable "cname_record" {
 
 variable "cname_record_value" {
   type        = string
-  description = "Value for the CNAME record"
+  description = "Value for the CNAME record."
 }
 
 variable "hosted_zone_name" {
